@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="Media-Player-heading">Media Player</h1>
+
+    <div class="media-player-container">
+        <div class="image">
+           <img src="Screenshot 2024-01-25 183422.png" alt="">
+        </div>
+
+        <!-- <div class="audio-container">
+            <audio controls>
+
+                <source src="Popular-(320Kbps.Com.In).mp3" type="audio/mp3">
+             
+              </audio>
+              
+        </div> -->
+<div class="waveform-container">
+    <div class="controls">
+        <ion-icon name="play-outline" id="playbtn"></ion-icon>
+    </div>
+    <div id="waveform"></div>
+</div>
+<div class="song-info">
+<h2 class="song-name">Popular</h2>
+<h2 class="singer-name">The Weekend</h2>
+</div>
+       
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js@7"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- pause-circle-outline -->

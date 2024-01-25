@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: gray;
+            padding: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .card{
+            background-color: white;
+            width: 300px; 
+            border-radius: 7px;
+            padding: 34px 0;
+            margin: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+            
+        }
+        .card:nth-child(2){
+            background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+        }
+        .card:nth-child(3){
+            background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+        }
+        
+        .image{
+            padding: 2px;
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            object-fit: cover;
+        
+        }
+        .image img{
+            border-radius: 7px;
+            object-fit: cover;
+            height:150px;
+        }
+        .content{
+            padding: 7px 13px; 
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+       
+        .content h2{
+            text-align: center;
+            font-size: 40px;
+        }
+        .content p{
+            font-size: 9px;
+            color: gray;
+            text-align: justify;
+            width: 200px;
+            font-size:14px;
+           
+        }
+        .capsules{
+            padding: 0 28px 0 14px;
+          
+        }
+        .capsules span{
+            border: 1px solid gray;
+            padding: 0px 6px;
+            border-radius: 7px;
+            font-size: 8px;
+            font-family: 'Baloo Bhai 2', sans-serif; 
+
+        }
+        .button{
+            text-align: center;
+        }
+        .button button{
+            padding: 7px 15px;
+            border-radius: 15px;
+            background-color: rgb(216, 236, 253);
+            color: rgb(14, 150, 234);
+            font-size: 10px;
+            margin-top: 7px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button button:hover{
+            background-color: rgb(194, 225, 246);
+            color: rgb(10, 136, 214);
+        }
+    </style>
+</head>
+<body>
+    <div class="card"> 
+        <div class="image">
+            <img width="188" src="https://images.unsplash.com/photo-1682685797332-e678a04f8a64?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8" alt="">
+        </div>
+
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Mountains</h2>
+            <p>Mountains are like nature's skyscrapers, standing tall and timeless. Their beauty and stories of resilience make them a captivating experience. So, whenever you're around, soak in the crisp air and take in the breathtaking views.</p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+
+    </div>
+
+    <div class="card"> 
+        <div class="image">
+            <img width="188" src="https://images.unsplash.com/photo-1682687982167-d7fb3ed8541d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzM3x8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Deep Sea</h2>
+            <p>The deep sea is an enigma of endless mysteries. Its vastness holds secrets yet to be unveiled, like an unexplored realm beneath the waves. The deep sea's abyssal silence conceals a world of unique creatures and undiscovered wonders.</p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+
+    </div>
+
+    <div class="card"> 
+        <div class="image">
+            <img width="188" src="https://images.unsplash.com/photo-1705607984977-9057bb5fa8e2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1N3x8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Mystic Magic</h2>
+            <p>The mystical and magical are like whispers of enchantment that dance through the fabric of our reality. Whether it's the allure of ancient folklore or the spark of wonder in everyday moments, magic surrounds us</p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+
+    </div>
+</body>
+</html>
